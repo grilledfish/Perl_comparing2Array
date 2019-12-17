@@ -29,8 +29,7 @@ my @a = split /\s+/, $a;
 my $b = rtrim(my $b_temp = <STDIN>);
 
 my @b = split /\s+/, $b;
-my $alice2 =0;
-my $bob2 =0;
+
 my $result ="";
 my $result2 ="";
 ($result,$result2) = compareTriplets \@a, \@b;
